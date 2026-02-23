@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char l1, l2;
+    cout << "Ingrese la primera letra: ";
+    cin >> l1;
+    cout << "Ingrese la segunda letra: ";
+    cin >> l2;
+    cout << "Letras juntas: " << l1 << l2 << endl;
+    return 0;
+}
