@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char letra;
+    cout << "Ingrese una letra: ";
+    cin >> letra;
+    cout << "Letra ingresada: " << letra << endl;
+    cout << "Letra repetida: " << letra << letra << letra << endl;
+    cout << "Valor numerico: " << int(letra) << endl;
+    return 0;
+}
