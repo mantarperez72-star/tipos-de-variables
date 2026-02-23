@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double precio, cantidad;
+    cout << "Ingrese el precio del producto: ";
+    cin >> precio;
+    cout << "Ingrese la cantidad comprada: ";
+    cin >> cantidad;
+    cout << "Total a pagar: " << precio * cantidad << endl;
+    return 0;
+}
